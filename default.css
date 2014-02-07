@@ -14,3 +14,7 @@ body {
 	overflow: auto;
 	background-color: red;
 }
+
+#links {
+	list-style-type: none;
+}
