@@ -4,3 +4,13 @@ body {
 	color: blue;
 	background-color: magenta;
 }
+
+#sidebar {
+	background-color: blue;
+	float: left;
+}
+
+#maincontent {
+	overflow: auto;
+	background-color: red;
+}
