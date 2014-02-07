@@ -7,8 +7,7 @@ body {
 
 #sidebar {
 	float: left;
-	border-style: solid;
-	border-right: thick black;
+	border-right: thick double #aaaaaa;
 }
 
 #maincontent {
@@ -16,6 +15,7 @@ body {
 }
 
 #nametitle {
+	padding-left: 10px;
 	color: blue;
 	font-family: impact;
 	font-size: 64px;
