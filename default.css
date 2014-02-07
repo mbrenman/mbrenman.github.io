@@ -8,14 +8,15 @@ body {
 #sidebar {
 	float: left;
 	border-right: thick double #aaaaaa;
+	padding-right: 10px;
 }
 
 #maincontent {
+	padding-left: 10px;
 	overflow: auto;
 }
 
 #nametitle {
-	padding-left: 10px;
 	color: blue;
 	font-family: impact;
 	font-size: 64px;
