@@ -1,11 +1,14 @@
 body {
 	font-size: 18px;
 	font-family: 'Comic Sans MS';
-	color: yellow;
+	border: 0px;
+	margin: 0px;
 }
 
 #sidebar {
 	float: left;
+	border-style: solid;
+	border-right: thick black;
 }
 
 #maincontent {
