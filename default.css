@@ -1,18 +1,21 @@
 body {
-	font-size: 36px;
+	font-size: 18px;
 	font-family: 'Comic Sans MS';
 	color: yellow;
-	background-color: magenta;
 }
 
 #sidebar {
-	background-color: green;
 	float: left;
 }
 
 #maincontent {
 	overflow: auto;
-	background-color: red;
+}
+
+#nametitle {
+	color: blue;
+	font-family: impact;
+	font-size: 64px;
 }
 
 #links {
