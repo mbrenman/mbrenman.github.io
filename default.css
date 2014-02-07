@@ -1,6 +1,6 @@
 body {
 	font-size: 18px;
-	font-family: 'Comic Sans MS';
+	font-family: "HelveticaNeue-Light", Palatino;
 	border: 0px;
 	margin: 0px;
 }
@@ -18,7 +18,7 @@ body {
 
 #nametitle {
 	color: blue;
-	font-family: impact;
+	font-family: "HelveticaNeue";
 	font-size: 64px;
 }
 
