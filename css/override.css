@@ -1,0 +1,30 @@
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #34495E;
+}
+
+body {
+	background-color: #34495E;
+}
+
+p {
+	color: #ECF0F1;
+}
+
+div.hero-unit h1 {
+	color: #ECF0F1;
+}
+
+h2 {
+	color: #1ABC9C;
+}
+
+div.hero-unit {
+	background-color: #1CA896;
+}
+
+ul {
+	color: #ECF0F1;
+}

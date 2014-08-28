@@ -1,102 +1,148 @@
 <!doctype html>
 <html>
-
 <head>
-	<title>Matt's Resume</title>
-	<link rel="stylesheet" href="default.css">
+	<title>Matt Brenman</title>
 	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/override.css">
+	<link href="css/simple-sidebar.css" rel="stylesheet">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
-	<div id="sidebar">
-		<div id="nametitle">
-			<p>Matt<br />Brenman</p>
-		</div>
-		<ul id="links">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="bio.html">Bio</a></li>
-		</ul>
-	</div>
-	<div id="maincontent">
 
-		<h1>Education</h1>
-		<p>Tufts University - College of Arts &amp; Sciences</p>
-			<ul>
-				<li>B.S. in Computer Science (expected May 2015)</li>
-				<li>B.S. in Cognitive &amp; Brain Science (expected May 2015)</li>
-				<li>Dean&#39;s List: All semesters</li>
-				<li>Cumulative GPA: 3.84</li>
-			</ul>
-		<h2>Relevant Coursework</h2>
-			<ul>
-				<li>Junior Year
-					<ul>
-						<li>Machine Learning &amp; Data Mining - Python</li>
-						<li>Web Programming - HTML/CSS/Javascript</li>
-						<li>Computation Theory</li>
-						<li>Computer System Security - Ruby/Javascript</li>
-						<li>Programming Languages - ML/uScheme/impCore</li>
-						<li>Linear Algebra</li>
-					</ul>
-				</li>
-				<li>Sophomore Year
-					<ul>
-						<li>Machine Structure &amp; Assembly Language Programming - C</li>
-						<li>Artificial Intelligence - C++/Prolog</li>
-						<li>Data Structures - C++</li>
-						<li>Discrete Mathematics</li>
-					</ul>
-				</li>
-				<li>Freshman Year
-					<ul>
-						<li>Introduction to Computer Science - C++</li>
-						<li>Calculus 2</li>
-						<li>Calculus 3</li>
-					</ul>
-				</li>
-			</ul>
-		
-		<h2>Professional Experience</h2>
-			<ul>
-				<li>GeoData Modelers, Inc. - Bryn Mawr, PA
-					<ul>
-						<li>Created an address processor to continually improve over 500,000 customer data sets using
-	Python.</li>
-						<li>Created a database exploration and analysis web application from scratch using HTML, CSS,
-	ASP.Net and C# which allowed users with no prior programming knowledge to create SQL
-	queries the database and receive visual results.</li>
-						<li>Used Python (ArcPy) to automate geodatabase administration tasks in ArcGIS Server.</li>
-						<li>The modules created were shipped for use to multiple company locations.</li>
-					</ul>
-				</li>
-				<li>Music Training Center
-					<ul>
-						<li>Worked with one or two other teachers to run each class</li>
-						<li>Taught a group of children a variety of songs of their choosing on multiple instruments</li>
-						<li>Kept group on a tight schedule to ensure readiness for performances</li>
-						<li>Performances at World Caf&eacute; Live</li>
-					</ul>
-				</li>
-				<li>The Academy of Natural Sciences
-					<ul>
-						<li>~150 hours of volunteer work</li>
-						<li>Educated the public about and cared for a variety of animals on a daily basis</li>
-					</ul>
-				</li>	
-			</ul>
-		<h2>Skills</h2>
-			<ul>
-				<li>Computer: C, Python, C++, HTML, CSS, Objective C</li>
-				<li>Exposure to ASP. NET, C#, SQL</li>
-				<li>Spoken Languages: English, Spanish</li>
-				<li>Other: MS Office, Visual Studio, SPSS, Linux</li>
-			</ul>
-		
-		<h2>Related Activities</h2>
-			<ul>
-				<li>Member of Tufts Computer Science Exchange</li>
-				<li>TuftsHack Participant - Fall 2013, Spring 2014</li>
-			</ul>
-	</div>
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="index.html">
+                        Matt Brenman
+                    </a>
+                </li>
+                <li>
+                    <a href="resume.html">Resume</a>
+                </li>
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="http://www.github.com/mbrenman">GitHub</a>
+                </li>
+                <li>
+                    <a href="http://www.linkedin.com/pub/matthew-brenman/70/5a9/990/">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="mailto:mattbrenman@gmail.com">Email</a>
+                </li>
+            </ul>
+        </div>
+		    	<div class="container-fluid">
+					<div id="maincontent">
+						<h2>Education</h2>
+						<p>Tufts University - College of Arts &amp; Sciences</p>
+							<ul>
+								<li>B.S. in Computer Science (expected May 2015)</li>
+								<li>B.S. in Cognitive &amp; Brain Science (expected May 2015)</li>
+								<li>Dean&#39;s List: All semesters</li>
+								<li>Cumulative GPA: 3.86</li>
+							</ul>
+						<h2>Relevant Coursework</h2>
+							<ul>
+								<li>Senior Year
+									<ul>
+										<li>Vizualization - Processing</li>
+										<li>Algorithms</li>
+										<li>Research - Natural Language Processing in Robots</li>
+									</ul>
+								</li>
+								<li>Junior Year
+									<ul>
+										<li>Machine Learning &amp; Data Mining - Python</li>
+										<li>Web Programming - HTML/CSS/Javascript</li>
+										<li>Computation Theory</li>
+										<li>Computer System Security - Ruby/Javascript</li>
+										<li>Programming Languages - ML/uScheme</li>
+										<li>Linear Algebra</li>
+									</ul>
+								</li>
+								<li>Sophomore Year
+									<ul>
+										<li>Machine Structure &amp; Assembly Language Programming - C</li>
+										<li>Artificial Intelligence - C++/Prolog</li>
+										<li>Data Structures - C++</li>
+										<li>Discrete Mathematics</li>
+									</ul>
+								</li>
+								<li>Freshman Year
+									<ul>
+										<li>Introduction to Computer Science - C++</li>
+										<li>Calculus 2</li>
+										<li>Calculus 3</li>
+									</ul>
+								</li>
+							</ul>
+						
+						<h2>Professional Experience</h2>
+							<ul>
+								<li>Cogo Labs - Cambridge, MA
+									<ul>
+										<li>Created a personalized news aggregation web business with thousands of users in the Go programming language</li>
+										<li>Used Go to create a highly concurrent and automated article/image collector to keep the
+database populated with the latest news.</li>
+										<li>Utilized the Famo.us javascript framework to create an arcade-style game for a social-viral
+experiment.</li>
+									</ul>
+								</li>
+								<li>GeoData Modelers, Inc. - Bryn Mawr, PA
+									<ul>
+										<li>Created an address processor to continually improve over 500,000 customer data sets using
+					Python.</li>
+										<li>Created a database exploration and analysis web application from scratch using HTML, CSS,
+					ASP.Net and C# which allowed users with no prior programming knowledge to create SQL
+					queries the database and receive visual results.</li>
+										<li>Used Python (ArcPy) to automate geodatabase administration tasks in ArcGIS Server.</li>
+										<li>The modules created were shipped for use to multiple company locations.</li>
+									</ul>
+								</li>
+								<li>Music Training Center
+									<ul>
+										<li>Worked with one or two other teachers to run each class</li>
+										<li>Taught a group of children a variety of songs of their choosing on multiple instruments</li>
+										<li>Kept group on a tight schedule to ensure readiness for performances</li>
+										<li>Performances at World Caf&eacute; Live</li>
+									</ul>
+								</li>
+								<li>The Academy of Natural Sciences
+									<ul>
+										<li>~150 hours of volunteer work</li>
+										<li>Educated the public about and cared for a variety of animals on a daily basis</li>
+									</ul>
+								</li>	
+							</ul>
+						<h2>Skills</h2>
+							<ul>
+								<li>Computer: C, C++, Python, Objective C, Go, Javascript</li>
+								<li>Spoken Languages: English (Native), Spanish</li>
+							</ul>
+						
+						<h2>Related Activities</h2>
+							<ul>
+								<li>Member of Tufts Computer Science Exchange</li>
+								<li>TuftsHack Participant</li>
+									<ul>
+										<li>Spring 2014 - Best Overall Hack</li>
+										<li>Fall 2013 - EchoNest Prize - 2nd Place</li>
+									</ul>
+								<li>BattleHack Boston Participant - Summer 2014</li>
+							</ul>
+					</div>
+				</div>
+    	</div>
+    </div>
+
 </body>
-</html>
